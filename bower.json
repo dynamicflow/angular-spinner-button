@@ -1,0 +1,27 @@
+{
+  "name": "angular-spinner-button",
+  "authors": [
+    "Alessandro Oliveira <alessandro@dynamicflow.com.br>"
+  ],
+  "description": "Angular Spinner Button",
+  "main": "spinner-button.directive.js",
+  "keywords": [
+    "angular",
+    "spinner",
+    "button"
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7"
+  }
+}

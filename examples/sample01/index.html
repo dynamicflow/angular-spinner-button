@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>USING SPINNER BUTTON</title>
+    <script src="../../bower_components/angular/angular.js"></script>
+    <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.css">
+    <script src="../../spinner-button.directive.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="sample01" ng-controller="sample01Controller">
+
+    <h1>Using Spinner Button</h1>
+    <form name="sample01Form">
+        <spinner-button my-icon="fa-play-circle" my-processing="processing" my-class="btn btn-success"
+                        my-action="click()">EXECUTE</spinner-button>
+    </form>
+
+    <hr>
+
+    <div>
+        {{message}}
+    </div>
+
+    <div>
+        Click Count: {{count}}
+    </div>
+</body>
+</html>
